@@ -4,11 +4,11 @@ instance using the sqlite plugin.
 To start it, simply run
 
 ```bash
+git clone https://github.com/jun9/wp-sqlite-docker-compose
 git clone https://github.com/wordpress/sqlite-database-integration
-docker compose up -d
-open http://localhost:8080
-docker compose logs -f
+docker compose up 
 ```
+open http://localhost:8080
 
 It also includes a bind mount `wp-content` locally to play with the sqlite db
 
