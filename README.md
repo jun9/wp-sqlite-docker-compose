@@ -4,7 +4,7 @@ instance using the sqlite plugin.
 To start it, simply run
 
 ```bash
-git clone git@github.com:WordPress/sqlite-database-integration.git
+git clone https://github.com/wordpress/sqlite-database-integration
 docker compose up -d
 open http://localhost:8080
 docker compose logs -f
